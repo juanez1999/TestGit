@@ -7,8 +7,8 @@ public class Principal extends PApplet{
 	public static void main(String[] args) {
 		PApplet.main("Principal");
 	}
-		
 	
+		
 	@Override
 	public void settings() {
 		size(580,580);
@@ -27,7 +27,8 @@ public class Principal extends PApplet{
 	
 	@Override
 	public void setup() {
-	
+		println("holis");
+
 		
 		x[0] = 100; 
 		y[0] = 100; 
